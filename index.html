@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>練習</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- ↓↓↓↓↓↓↓↓↓↓↓↓↓↓ ここから下に、ブラウザに表示したい内容を記述する ↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+    <h1 class="page-title">じゃんけんアプリ</h1>
+      <div class="count">
+        <h2>戦績</h2>
+        <ul id="history"></ul>
+      </div>
+
+    <div class="box">
+      <div class="box-item">
+        <span class="box-title">あなたの手：</span>
+        <button id="btn1" class="form-control">グー</button>
+        <button id="btn2" class="form-control">チョキ</button>
+        <button id="btn3" class="form-control">パー</button>
+      </div>
+      <div class="box-item">
+        <span class="box-title">コンピューターの手：</span>
+        <p id="result">コンピューターの手は</p>
+      </div>
+    </div>
+
+    <div class="text-center result">
+      結果は・・・・
+      <button id="resetbutton">もう一回！！</button>
+      <p id="final-result"><img src="images/taikigamen.jpg" alt=""><p>
+    </div>
+
+    <!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑ ここから上に、ブラウザに表示したい内容を記述する ↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
